@@ -1,0 +1,152 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f1f1f1;
+    background: black;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #00bcd4, #e91e63); /* Turquoise to Red gradient */
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+main {
+    padding: 40px 10%;
+    min-height: calc(100vh - 160px);
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    align-self: center;
+}
+
+section p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10%;
+    background-color: #00bcd4; /* Turquoise background */
+    border-radius: 10px;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.home-text {
+    max-width: 60%;
+}
+
+.home-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.home-text p {
+    font-size: 1.2rem;
+}
+
+.home-image {
+    max-width: 35%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #e91e63; /* Red button */
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #d81b60; /* Darker red */
+}
+
+#contact {
+    text-align: center;
+    padding: 40px 10%;
+    background-color: #e91e63; /* Red background */
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#contact a {
+    color: #00bcd4; /* Turquoise link */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: #ffffff;
+}
